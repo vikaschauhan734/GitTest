@@ -1,5 +1,5 @@
 # Program to check if a number is prime or not
-To take input from the user
+#To take input from the user
 num = int(input("Enter a number: "))
 
 # define a flag variable
@@ -31,3 +31,20 @@ sum = float(num1) + float(num2)
 
 # Display the sum
 print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+
+# Python program to find the factorial of a number provided by the user.
+
+# To take input from the user
+num = int(input("Enter a number: "))
+
+factorial = 1
+
+# check if the number is negative, positive or zero
+if num < 0:
+   print("Sorry, factorial does not exist for negative numbers")
+elif num == 0:
+   print("The factorial of 0 is 1")
+else:
+   for i in range(1,num + 1):
+       factorial = factorial*i
+   print("The factorial of",num,"is",factorial)
