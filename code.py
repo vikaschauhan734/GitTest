@@ -23,3 +23,12 @@ if flag:
     print(num, "is not a prime number")
 else:
     print(num, "is a prime number")
+
+#no. is even
+if (num % 2) == 0:
+
+              print (“The number is even”)
+#no. is odd
+else:
+
+              print (“The provided number is odd”)
